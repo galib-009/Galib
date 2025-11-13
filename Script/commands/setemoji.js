@@ -6,7 +6,7 @@ module.exports.config = {
 	description: "Change emoji in group",
 	commandCategory: "Group",
 	usages: "setemoji [emoji]",
-	cooldowns: 3
+	cooldowns: 1
 };
 
 module.exports.run = async function({ api, event, args }) {
