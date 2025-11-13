@@ -15,7 +15,7 @@ module.exports.config = {
  description: "auto reply to salam",
  commandCategory: "noprefix",
  usages: "🥺",
- cooldowns: 5,
+ cooldowns:1,
  dependencies: {
  "request":"",
  "fs-extra":"",
